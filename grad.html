@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>حماية حقوق الرسامين</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f4; }
+    header { background: #222; color: #fff; padding: 1rem; text-align: center; }
+    nav a { color: #fff; margin: 0 1rem; text-decoration: none; }
+    main { padding: 2rem; }
+    section { margin-bottom: 2rem; background: #fff; padding: 1rem; border-radius: 8px; }
+    form input, form textarea, form button {
+      display: block; width: 100%; margin-bottom: 1rem; padding: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>صوت الفنان</h1>
+    <p>حماية حقوق الفنانين في عصر الذكاء الاصطناعي</p>
+    <nav>
+      <a href="#upload">ادرج رسمتك</a>
+      <a href="#report">الإبلاغ عن إساءة الاستخدام</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>اهلًا وسهلًا!</h2>
+      <p>هذا المنصة مخصصة لحماية الفنانين وأعمالهم من الاستخدام غير المصرح به من قبل الذكاء الاصطناعي. هنا، يمكنك رفع أعمالك الفنية والإبلاغ عن أي انتهاكات محتملة.</p>
+    </section>
+
+    <section id="upload">
+      <h2>ادرج رسمتك</h2>
+      <form>
+        <input type="text" placeholder="اسمك" required />
+        <input type="email" placeholder="الايميل" required />
+        <input type="file" accept="image/*" required />
+        <textarea placeholder="الوصف" rows="4"></textarea>
+        <button type="submit">Upload</button>
+      </form>
+    </section>
+
+    <section id="report">
+      <h2>الإبلاغ عن انتهاك الحقوق</h2>
+      <form>
+        <input type="text" placeholder="اسمك" required />
+        <input type="email" placeholder="الايميل" required />
+        <input type="url" placeholder="ضع الرابط الذي يحتوي على الانتهاك" required />
+        <textarea placeholder="Describe the issue" rows="4"></textarea>
+        <button type="submit">Submit Report</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
